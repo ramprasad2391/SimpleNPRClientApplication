@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/story_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/textViewStoryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="22dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textViewReporterName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewStoryTitle"
+        android:layout_below="@+id/textViewStoryTitle"
+        android:layout_marginTop="17dp"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewDateAired"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewReporterName"
+        android:layout_below="@+id/textViewReporterName"
+        android:layout_marginTop="23dp"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageButton
+        android:id="@+id/imageButtonBrowser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButtonBack"
+        android:layout_marginLeft="22dp"
+        android:layout_toRightOf="@+id/imageButtonBack"
+        android:src="@drawable/location_web_site" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMediaPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButtonBrowser"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/imageButtonBrowser"
+        android:src="@drawable/device_access_volume_on" />
+
+    <ImageButton
+        android:id="@+id/imageButtonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewDateAired"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="47dp"
+        android:src="@drawable/navigation_back" />
+
+    <ImageButton
+        android:id="@+id/imageButtonFavourites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButtonMediaPlayer"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/imageButtonMediaPlayer" />
+
+    <TextView
+        android:id="@+id/textViewTeaser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButtonBack"
+        android:layout_below="@+id/imageButtonBack"
+        android:layout_marginTop="56dp"
+        android:text="TextView" />
+
+</RelativeLayout>

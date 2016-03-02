@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ImageView
+        android:id="@+id/imageViewthumbnail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="54dp"
+        android:src="@drawable/npr_home" />
+
+    <Button
+        android:id="@+id/button_Programs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageViewthumbnail"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/ProgramsBtnText" />
+
+    <Button
+        android:id="@+id/button_Topics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button_Programs"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="45dp"
+        android:text="@string/TopicsBtnText" />
+
+    <Button
+        android:id="@+id/buttonFavourites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button_Programs"
+        android:layout_below="@+id/button_Programs"
+        android:layout_marginTop="74dp"
+        android:text="@string/FavouritesBtnText" />
+
+    <Button
+        android:id="@+id/button_Exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonFavourites"
+        android:layout_alignLeft="@+id/button_Topics"
+        android:text="@string/ExitBtnText" />
+
+</RelativeLayout>

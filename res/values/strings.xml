@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simple NPR Client Application</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_list">List Activity</string>
+    <string name="title_activity_stories">Stories Activity</string>
+    <string name="title_activity_story">Story Activity</string>
+    <string name="ProgramsBtnText">Programs</string>
+    <string name="TopicsBtnText">Topics</string>
+    <string name="FavouritesBtnText">Favourites</string>
+    <string name="ExitBtnText">Exit</string>
+    <string name="ClearFavorites">Clear Favorites</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.test.MainActivity" >
+
+    <item
+        android:id="@+id/clearFavorites"
+        android:orderInCategory="97"
+        android:showAsAction="never"
+        android:title="@string/ClearFavorites"/>
+
+    
+</menu>
